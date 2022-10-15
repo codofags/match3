@@ -1,0 +1,302 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.19f1 (602ecdbb2fb0) revision 6303437'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.14393) 64bit Professional' Language: 'ru' Physical Memory: 16288 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.2.14f1\2021.2.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/opt/match3android-master/Match3/Match3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61835
+Successfully changed project path to: D:/opt/match3android-master/Match3/Match3
+D:/opt/match3android-master/Match3/Match3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 64.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.2.14f1/2021.2.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/opt/match3android-master/Match3/Match3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   NVIDIA
+    VRAM:     1998 MB
+    Driver:   26.21.14.4141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.2.14f1/2021.2.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.2.14f1/2021.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.2.14f1/2021.2.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.2.14f1/2021.2.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.2.14f1/2021.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.2.14f1/2021.2.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.2.14f1/2021.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008326 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (92ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002599 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (636ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (207ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (56.7 KB). Loaded Objects now: 2621.
+Memory consumption went from 87.7 MB to 87.7 MB.
+Total: 8.720049 ms (FindLiveObjects: 0.291489 ms CreateObjectMapping: 0.131786 ms MarkObjects: 8.181410 ms  DeleteObjects: 0.113722 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 385931.290006 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Blueberry-2-shadow.png
+  artifactKey: Guid(298f58cbfa887914b9db8d32cbd0ba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Blueberry-2-shadow.png using Guid(298f58cbfa887914b9db8d32cbd0ba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4200a6d32a52210a8d0510192b9b0d8e') in 0.240285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/berries and shadows_corelated
+  artifactKey: Guid(6bf2dfdf60f071f4ab79fb5293d9aca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated using Guid(6bf2dfdf60f071f4ab79fb5293d9aca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb68cc796bbc6db8b6d9936cdacde353') in 0.000978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Blueberry-1.png
+  artifactKey: Guid(1c49c9e162982c344a9aa3241488affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Blueberry-1.png using Guid(1c49c9e162982c344a9aa3241488affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428c1f8388d86c4eb2deb1e64f3a9c2b') in 0.011936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Gooseberry-3.png
+  artifactKey: Guid(2754a004ece57ce4a8704ac1a9356acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Gooseberry-3.png using Guid(2754a004ece57ce4a8704ac1a9356acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7526d9119582138a9105f60aa7dbb098') in 0.011060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-1.png
+  artifactKey: Guid(66e5e75fbb53fad4280123ccf3d0eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-1.png using Guid(66e5e75fbb53fad4280123ccf3d0eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17723225b810ac79ec5a352d5810db5') in 0.011465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-4-shadow.png
+  artifactKey: Guid(a28317435df4ea541a1aabab12a44d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-4-shadow.png using Guid(a28317435df4ea541a1aabab12a44d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbc3d4be54e2a1b8e0173bd79978593') in 0.010584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-5-shadow.png
+  artifactKey: Guid(6c760953a850537468d9e59b44466ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-5-shadow.png using Guid(6c760953a850537468d9e59b44466ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cdd7efa674f6a4a188ee3917653aa8') in 0.010993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-1-shadow.png
+  artifactKey: Guid(a03795f5754ff1a45b4cd301129a21b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-1-shadow.png using Guid(a03795f5754ff1a45b4cd301129a21b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72edf1af33a13d3ecfc3965e7b4bda5') in 0.011536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Blueberry-2.png
+  artifactKey: Guid(2fe5db428bf05bc448d34ebee2b793ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Blueberry-2.png using Guid(2fe5db428bf05bc448d34ebee2b793ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba3fc77c70747e988da5f708cbe42b9') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-2-shadow.png
+  artifactKey: Guid(39002cf14348b304ea359eaa811c2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-2-shadow.png using Guid(39002cf14348b304ea359eaa811c2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0053014e5b86f1204b7796d1d7c306') in 0.011259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-3-shadow.png
+  artifactKey: Guid(fb1ed9165de5f914bb34d477ea60561f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-3-shadow.png using Guid(fb1ed9165de5f914bb34d477ea60561f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099974a83af49493062f05391cd4675c') in 0.010662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-3.png
+  artifactKey: Guid(9948ef9b19976224e94947a51d55d3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-3.png using Guid(9948ef9b19976224e94947a51d55d3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeca4d0ef20ef1d7df23368ffeca99a0') in 0.010948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Gooseberry-1-shadow.png
+  artifactKey: Guid(3e0ecd5f3fa35bd4bb1ac52f1d5ad691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Gooseberry-1-shadow.png using Guid(3e0ecd5f3fa35bd4bb1ac52f1d5ad691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fecb24301b400d40b7a8299f45d982c') in 0.011777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-2.png
+  artifactKey: Guid(b3dec904adc548d40a234b549b1b39d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-2.png using Guid(b3dec904adc548d40a234b549b1b39d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d08da1d628aa2b032c824628962f57') in 0.010633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/strawberry-4.png
+  artifactKey: Guid(fb84c7b0097de13468744696bb3c617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/strawberry-4.png using Guid(fb84c7b0097de13468744696bb3c617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544d6513e9eb8f19730d57079ffb18a1') in 0.011642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Gooseberry-4.png
+  artifactKey: Guid(1d67dfbd21f89474b81f7defa7695967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Gooseberry-4.png using Guid(1d67dfbd21f89474b81f7defa7695967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba55447171e7ff7ac3cc80f8b724245f') in 0.011230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Gooseberry-5.png
+  artifactKey: Guid(2a3c1f551e5a54c47829de385245c228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Gooseberry-5.png using Guid(2a3c1f551e5a54c47829de385245c228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249a54864661cded406139d6613f50ea') in 0.011193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Gooseberry-2-shadow.png
+  artifactKey: Guid(c56c88df7f1198b4f851cd82c00b4777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Gooseberry-2-shadow.png using Guid(c56c88df7f1198b4f851cd82c00b4777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a9893bc21d207ddf5d65098bef6657') in 0.010590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Raspberry-4.png
+  artifactKey: Guid(9d742a9091694674baf15cc9fdfa7b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Raspberry-4.png using Guid(9d742a9091694674baf15cc9fdfa7b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360b96b476585ec24f43e5aa0f38ad9f') in 0.010288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Blueberry-1-shadow.png
+  artifactKey: Guid(35063e405f5d10f4eb6e18baeed27cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Blueberry-1-shadow.png using Guid(35063e405f5d10f4eb6e18baeed27cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8396b1178b6d3b9a64fd1b6a3d07095b') in 0.010467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/berries and shadows_corelated/Raspberry-1.png
+  artifactKey: Guid(ad15765138822e24dac3e83d2ce35755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/berries and shadows_corelated/Raspberry-1.png using Guid(ad15765138822e24dac3e83d2ce35755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0554a98322c31f85432cace3d6b68b') in 0.010646 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
